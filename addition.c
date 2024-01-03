@@ -1,11 +1,11 @@
 #include<stdio.h>
-int addition()
+int main()
 {
-    int tamil=45,english=50,maths=50,total;
+    int tamil=85,english=71,maths=80,total;
     total=tamil+english+maths;
     printf("ADDITION\n");
     printf("---------\n");
-    printf("tamil=%d\nenglish=%d\nmaths=%d\ntotal=%d",tamil,english,maths,total);
+    printf("tamil=%d\nenglish=%d\nmaths=%d\ntotal=%d\n",tamil,english,maths,total);
     return 0;
 
 }
